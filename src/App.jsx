@@ -5,6 +5,8 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Login from "./pages/Login";
 import PageNotFound from "./pages/PageNotFound";
+import '@fontsource/lato';
+
 
 export default function App() {
   return <BrowserRouter>
