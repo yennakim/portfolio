@@ -4,6 +4,7 @@ import Projects from "./pages/Projects";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Login from "./pages/Login";
+import PageNotFound from "./pages/PageNotFound";
 
 export default function App() {
   return <BrowserRouter>
@@ -13,6 +14,7 @@ export default function App() {
       <Route path="/about" element={<About />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/login" element={<Login />} />
+      <Route path="*" element={<PageNotFound />} />
     </Routes>
   </BrowserRouter>
 }
