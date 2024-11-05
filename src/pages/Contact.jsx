@@ -1,5 +1,10 @@
+import Navbar from "../components/Navbar";
+
 export default function Contact() {
   return (
-    <div>Contact</div>
+    <main>
+      <Navbar />
+      <div>Contact</div>
+    </main>
   )
 }

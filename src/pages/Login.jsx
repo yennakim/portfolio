@@ -1,5 +1,10 @@
+import Navbar from "../components/Navbar";
+
 export default function Login() {
   return (
-    <div>Login</div>
+    <main>
+      <Navbar />
+      <div>Login</div>
+    </main>
   )
 }
